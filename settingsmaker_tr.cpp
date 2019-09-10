@@ -434,15 +434,15 @@ SettingsMaker::SettingsMaker(QWidget *parent) :
     radio->setText(QApplication::translate("SettingMaker", "Radyo", Q_NULLPTR));
     bar->setText(QApplication::translate("SettingMaker", "Bar", Q_NULLPTR));
     demo->setText(QApplication::translate("SettingMaker", "Demo Modu", Q_NULLPTR));
-    dvd->setText(QApplication::translate("SettingMaker", "DVD Oynatýcý", Q_NULLPTR));
-    cscreen->setText(QApplication::translate("SettingMaker", "Tavan Ekraný", Q_NULLPTR));
+    dvd->setText(QApplication::translate("SettingMaker", "DVD Oynatï¿½cï¿½", Q_NULLPTR));
+    cscreen->setText(QApplication::translate("SettingMaker", "Tavan Ekranï¿½", Q_NULLPTR));
     curtains->setText(QApplication::translate("SettingMaker", "Perdeler", Q_NULLPTR));
-    dstation->setText(QApplication::translate("SettingMaker", "Dock Ýstasyonu", Q_NULLPTR));
+    dstation->setText(QApplication::translate("SettingMaker", "Dock ï¿½stasyonu", Q_NULLPTR));
     espresso->setText(QApplication::translate("SettingMaker", "Espresso", Q_NULLPTR));
     label_5->setText(QApplication::translate("SettingMaker", "Klima Tipi:", Q_NULLPTR));
     label_6->setText(QApplication::translate("SettingMaker", "TV Tipi:", Q_NULLPTR));
-    label_7->setText(QApplication::translate("SettingMaker", "Medya Oynatýcý Tipi: ", Q_NULLPTR));
-    label_8->setText(QApplication::translate("SettingMaker", "Varsayýlan Dil", Q_NULLPTR));
+    label_7->setText(QApplication::translate("SettingMaker", "Medya Oynatï¿½cï¿½ Tipi: ", Q_NULLPTR));
+    label_8->setText(QApplication::translate("SettingMaker", "Varsayï¿½lan Dil", Q_NULLPTR));
     actype_val->clear();
     actype_val->insertItems(0, QStringList()
      << QApplication::translate("SettingMaker", "Yok", Q_NULLPTR)
@@ -467,42 +467,42 @@ SettingsMaker::SettingsMaker(QWidget *parent) :
     );
     defaultlang_val->clear();
     defaultlang_val->insertItems(0, QStringList()
-     << QApplication::translate("SettingMaker", "Ýngilizce", Q_NULLPTR)
-     << QApplication::translate("SettingMaker", "Türkçe", Q_NULLPTR)
-     << QApplication::translate("SettingMaker", "Çince", Q_NULLPTR)
+     << QApplication::translate("SettingMaker", "ï¿½ngilizce", Q_NULLPTR)
+     << QApplication::translate("SettingMaker", "Tï¿½rkï¿½e", Q_NULLPTR)
+     << QApplication::translate("SettingMaker", "ï¿½ince", Q_NULLPTR)
     );
-    twodoor->setText(QApplication::translate("SettingMaker", "Ýki Kapý", Q_NULLPTR));
-    regrigerator->setText(QApplication::translate("SettingMaker", "Buzdolabý", Q_NULLPTR));
-    intro->setText(QApplication::translate("SettingMaker", "Ýntro", Q_NULLPTR));
-    sidelights->setText(QApplication::translate("SettingMaker", "Yan Iþýklar", Q_NULLPTR));
+    twodoor->setText(QApplication::translate("SettingMaker", "ï¿½ki Kapï¿½", Q_NULLPTR));
+    regrigerator->setText(QApplication::translate("SettingMaker", "Buzdolabï¿½", Q_NULLPTR));
+    intro->setText(QApplication::translate("SettingMaker", "ï¿½ntro", Q_NULLPTR));
+    sidelights->setText(QApplication::translate("SettingMaker", "Yan Iï¿½ï¿½klar", Q_NULLPTR));
     sbox->setText(QApplication::translate("SettingMaker", "Kasa", Q_NULLPTR));
     pstation->setText(QApplication::translate("SettingMaker", "Playstation", Q_NULLPTR));
     sunroof->setText(QApplication::translate("SettingMaker", "Sunroof", Q_NULLPTR));
     amp->setText(QApplication::translate("SettingMaker", "Amfi", Q_NULLPTR));
-    label_13->setText(QApplication::translate("SettingMaker", "Üçüncü Koltuk:", Q_NULLPTR));
-    cooling3->setText(QApplication::translate("SettingMaker", "Soðutma", Q_NULLPTR));
-    heating3->setText(QApplication::translate("SettingMaker", "Isýtma", Q_NULLPTR));
+    label_13->setText(QApplication::translate("SettingMaker", "ï¿½ï¿½ï¿½ncï¿½ Koltuk:", Q_NULLPTR));
+    cooling3->setText(QApplication::translate("SettingMaker", "Soï¿½utma", Q_NULLPTR));
+    heating3->setText(QApplication::translate("SettingMaker", "Isï¿½tma", Q_NULLPTR));
     massage3->setText(QApplication::translate("SettingMaker", "Masaj", Q_NULLPTR));
-    drawer3->setText(QApplication::translate("SettingMaker", "Çekmece", Q_NULLPTR));
-    thigh3->setText(QApplication::translate("SettingMaker", "Kalça", Q_NULLPTR));
+    drawer3->setText(QApplication::translate("SettingMaker", "ï¿½ekmece", Q_NULLPTR));
+    thigh3->setText(QApplication::translate("SettingMaker", "Kalï¿½a", Q_NULLPTR));
     label_12->setText(QApplication::translate("SettingMaker", "Seat Four.", Q_NULLPTR));
-    cooling4->setText(QApplication::translate("SettingMaker", "Soðutma", Q_NULLPTR));
-    heating4->setText(QApplication::translate("SettingMaker", "Isýtma", Q_NULLPTR));
+    cooling4->setText(QApplication::translate("SettingMaker", "Soï¿½utma", Q_NULLPTR));
+    heating4->setText(QApplication::translate("SettingMaker", "Isï¿½tma", Q_NULLPTR));
     massage4->setText(QApplication::translate("SettingMaker", "Masaj", Q_NULLPTR));
-    drawer4->setText(QApplication::translate("SettingMaker", "Çekmece", Q_NULLPTR));
-    thigh4->setText(QApplication::translate("SettingMaker", "Kalça", Q_NULLPTR));
+    drawer4->setText(QApplication::translate("SettingMaker", "ï¿½ekmece", Q_NULLPTR));
+    thigh4->setText(QApplication::translate("SettingMaker", "Kalï¿½a", Q_NULLPTR));
     label_10->setText(QApplication::translate("SettingMaker", "Seat One:", Q_NULLPTR));
-    cooling1->setText(QApplication::translate("SettingMaker", "Soðutma", Q_NULLPTR));
-    heating1->setText(QApplication::translate("SettingMaker", "Isýtma", Q_NULLPTR));
+    cooling1->setText(QApplication::translate("SettingMaker", "Soï¿½utma", Q_NULLPTR));
+    heating1->setText(QApplication::translate("SettingMaker", "Isï¿½tma", Q_NULLPTR));
     massage1->setText(QApplication::translate("SettingMaker", "Masaj", Q_NULLPTR));
-    drawer1->setText(QApplication::translate("SettingMaker", "Çekmece", Q_NULLPTR));
-    thigh1->setText(QApplication::translate("SettingMaker", "Kalça", Q_NULLPTR));
+    drawer1->setText(QApplication::translate("SettingMaker", "ï¿½ekmece", Q_NULLPTR));
+    thigh1->setText(QApplication::translate("SettingMaker", "Kalï¿½a", Q_NULLPTR));
     label_11->setText(QApplication::translate("SettingMaker", "Seat Two:", Q_NULLPTR));
-    cooling2->setText(QApplication::translate("SettingMaker", "Soðutma", Q_NULLPTR));
-    heating2->setText(QApplication::translate("SettingMaker", "Isýtma", Q_NULLPTR));
+    cooling2->setText(QApplication::translate("SettingMaker", "Soï¿½utma", Q_NULLPTR));
+    heating2->setText(QApplication::translate("SettingMaker", "Isï¿½tma", Q_NULLPTR));
     massage2->setText(QApplication::translate("SettingMaker", "Masaj", Q_NULLPTR));
-    drawer2->setText(QApplication::translate("SettingMaker", "Çekmece", Q_NULLPTR));
-    thigh2->setText(QApplication::translate("SettingMaker", "Kalça", Q_NULLPTR));
+    drawer2->setText(QApplication::translate("SettingMaker", "ï¿½ekmece", Q_NULLPTR));
+    thigh2->setText(QApplication::translate("SettingMaker", "Kalï¿½a", Q_NULLPTR));
     button->setText(QApplication::translate("SettingMaker", "Kaydet", Q_NULLPTR));
 
 
@@ -524,7 +524,7 @@ void SettingsMaker::buttonClicked(){
     mySettings->beginGroup("main");
     if(defaultlang_val->currentIndex()==0)
     {
-        mySettings->setValue("lang",31); //31:ingilizce 125:türkçe 25:çince
+        mySettings->setValue("lang",31); //31:ingilizce 125:tï¿½rkï¿½e 25:ï¿½ince
     }else if(defaultlang_val->currentIndex()==1)
     {
          mySettings->setValue("lang",125);
@@ -534,7 +534,7 @@ void SettingsMaker::buttonClicked(){
     mySettings->setValue("actype",actype_val->currentIndex());
     mySettings->setValue("mindiff",0);
     mySettings->setValue("hourdiff",0);
-    mySettings->setValue("mediaplayertype",mplayertype_val->currentIndex()+1); //0:none 1:Kodi Player 2:Apple TV
+    mySettings->setValue("mediaplayertype",mplayertype_val->currentIndex()); //0:none 1:Kodi Player 2:Apple TV
     mySettings->setValue("tvtype",tvtype_val->currentIndex());
     mySettings->setValue("playstation",pstation->isChecked());
     mySettings->setValue("dockingstation",dstation->isChecked());

@@ -534,7 +534,7 @@ void SettingsMaker::buttonClicked(){
     mySettings->setValue("actype",actype_val->currentIndex());
     mySettings->setValue("mindiff",0);
     mySettings->setValue("hourdiff",0);
-    mySettings->setValue("mediaplayertype",mplayertype_val->currentIndex()+1); //0:none 1:Kodi Player 2:Apple TV
+    mySettings->setValue("mediaplayertype",mplayertype_val->currentIndex()); //0:none 1:Kodi Player 2:Apple TV
     mySettings->setValue("tvtype",tvtype_val->currentIndex());
     mySettings->setValue("playstation",pstation->isChecked());
     mySettings->setValue("dockingstation",dstation->isChecked());
