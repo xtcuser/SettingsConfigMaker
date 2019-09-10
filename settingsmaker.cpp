@@ -627,9 +627,9 @@ void SettingsMaker::buttonClicked(){
     mySettings->endGroup();
 
     mySettings->beginGroup("update");
-    mySettings->setValue("password", "HhPhf2Fn03");
-    mySettings->setValue("update_server", "cloud.kodpazar.com");
-    mySettings->setValue("username", "admin_dizaynvip2");
+    mySettings->setValue("password", "password");
+    mySettings->setValue("update_server", "server.com");
+    mySettings->setValue("username", "username");
     mySettings->setValue("version", "1.0");
     mySettings->endGroup();
 
